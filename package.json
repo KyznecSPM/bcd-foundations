@@ -1,0 +1,38 @@
+{
+  "name": "bcd-foundations",
+  "version": "1.0.0",
+  "description": "Node.js practice",
+  "scripts": {
+    "task1": "nodemon --exec babel-node src/task-1.js",
+    "task2": "npx babel-node src/task-2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyznecSPM/bcd-foundations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyznecSPM/bcd-foundations/issues"
+  },
+  "homepage": "https://github.com/KyznecSPM/bcd-foundations#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
